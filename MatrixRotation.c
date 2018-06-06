@@ -1,3 +1,20 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+
+/*You are given a 2D matrix of dimension and a positive integer . You have to rotate the matrix times and print the resultant matrix. Rotation should be in anti-clockwise direction.
+
+Rotation of a matrix is represented by the following figure. Note that in one rotation, you have to shift elements by one step only.
+
+matrix-rotation
+
+It is guaranteed that the minimum of m and n will be even.
+
+As an example rotate the Start matrix by 2:
+*/
+
 #include <assert.h>
 #include <limits.h>
 #include <math.h>
@@ -10,7 +27,6 @@
 
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int rows,cols,rot;
     scanf("%d%d%d",&rows,&cols,&rot);
     int arr[rows][cols];
