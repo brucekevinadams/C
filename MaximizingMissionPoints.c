@@ -1,6 +1,15 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ *
+ * C program from a Hackerrank problem
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 typedef struct _tree{
   int *y;
   long long *a;
@@ -9,6 +18,7 @@ typedef struct _tree{
   int *left_idx;
   int *right_idx;
 } tree;
+
 int diff(int x,int y);
 long long max(long long x,long long y);
 void init(int n,int *N);
