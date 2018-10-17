@@ -1,3 +1,12 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * C program
+ * Hackerrank problem
+ */
+ 
+
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>
